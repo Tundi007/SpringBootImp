@@ -1,0 +1,11 @@
+package com.prototype.springP1.entity.bank;
+
+import jakarta.persistence.DiscriminatorValue;
+import jakarta.persistence.Entity;
+
+@Entity
+@DiscriminatorValue("Sepah")
+public class Sepah extends Bank
+{
+
+}
